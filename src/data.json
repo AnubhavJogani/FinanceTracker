@@ -1,0 +1,129 @@
+{
+  "user": {
+    "name": "Ananya",
+    "greeting": "Hi, Ananya 👋",
+    "subtitle": "Track your all expense and transactions",
+    "lastUpdated": "11:11 PM | 31 June 2025 | IN"
+  },
+  "summaryCards": {
+    "accountBalance": {
+      "value": 898450.0,
+      "currency": "₹",
+      "trend": "+6% more than last month",
+      "bank": "SBI"
+    },
+    "monthlyExpenses": {
+      "value": 24093.0,
+      "currency": "₹",
+      "trend": "-2% less than last month"
+    },
+    "totalInvestment": {
+      "value": 145555.0,
+      "investAmount": 100000.0,
+      "currency": "₹",
+      "chartData": [40, 35, 55, 45, 70, 65, 80]
+    },
+    "goal": {
+      "name": "Apple iPhone 17 Pro",
+      "required": 145000,
+      "collected": 75000,
+      "progressPercentage": 51
+    }
+  },
+  "charts": {
+    "monthlyExpensesBar": [
+      { "month": "Dec", "value": 17000 },
+      { "month": "Feb", "value": 27000 },
+      { "month": "Mar", "value": 8000 },
+      { "month": "Apr", "value": 15000 },
+      { "month": "May", "value": 26000 },
+      { "month": "Jan", "value": 24000 }
+    ],
+    "topCategories": [
+      { "category": "Food & Grocery", "amount": 6156.0, "color": "#5D5FEF" },
+      { "category": "Investment", "amount": 5000.0, "color": "#FFC107" },
+      { "category": "Shopping", "amount": 4356.0, "color": "#4CAF50" },
+      { "category": "Travelling", "amount": 3670.0, "color": "#00BCD4" },
+      { "category": "Miscellaneous", "amount": 2749.0, "color": "#FF5722" },
+      {
+        "category": "Bill & Subscription",
+        "amount": 2162.0,
+        "color": "#9C27B0"
+      }
+    ]
+  },
+  "recentExpenses": [
+    {
+      "id": 1,
+      "amount": 2100.0,
+      "category": "Shopping",
+      "subCategory": "Amazon",
+      "date": "31 May 2025",
+      "mode": "UPI"
+    },
+    {
+      "id": 2,
+      "amount": 299.0,
+      "category": "Movie",
+      "subCategory": "PVR",
+      "date": "28 May 2025",
+      "mode": "UPI"
+    },
+    {
+      "id": 3,
+      "amount": 5000.0,
+      "category": "Investment",
+      "subCategory": "Groww",
+      "date": "24 May 2025",
+      "mode": "Bank"
+    },
+    {
+      "id": 4,
+      "amount": 2460.0,
+      "category": "Travel",
+      "subCategory": "IRCTC",
+      "date": "20 May 2025",
+      "mode": "Card"
+    },
+    {
+      "id": 5,
+      "amount": 678.0,
+      "category": "Food",
+      "subCategory": "Swiggy",
+      "date": "15 May 2025",
+      "mode": "UPI"
+    }
+  ],
+  "upcomingBills": [
+    {
+      "provider": "Netflix",
+      "date": "15 June 2025",
+      "amount": 149.0,
+      "icon": "netflix"
+    },
+    {
+      "provider": "Spotify",
+      "date": "24 Aug 2025",
+      "amount": 49.0,
+      "icon": "spotify"
+    },
+    {
+      "provider": "Figma",
+      "date": "01 Jan 2026",
+      "amount": 3999.0,
+      "icon": "figma"
+    },
+    {
+      "provider": "WIFI",
+      "date": "11 June 2025",
+      "amount": 399.0,
+      "icon": "wifi"
+    },
+    {
+      "provider": "Electricity",
+      "date": "31 June 2025",
+      "amount": 1265.0,
+      "icon": "bolt"
+    }
+  ]
+}
