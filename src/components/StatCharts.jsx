@@ -10,7 +10,6 @@ import {
     scales
 } from 'chart.js';
 import { Line, Doughnut } from 'react-chartjs-2';
-import { color } from 'chart.js/helpers';
 
 const dataLine = {
     labels: ['','','','','','',''],
@@ -53,7 +52,8 @@ const dataPie = {
     labels: [],
     datasets: [{
         data: [25, 75],
-        backgroundColor: ['rgba(254, 249, 194, 1)', 'rgba(255, 159, 64)']
+        backgroundColor: ['rgba(254, 249, 194, 1)', 'rgba(255, 159, 64)'],
+        borderWidth: 0
     },
     ]
 };

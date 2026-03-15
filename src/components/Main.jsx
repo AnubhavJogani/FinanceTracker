@@ -6,7 +6,7 @@ import TableChart from './TableChart'
 
 const Main = () => {
     return (
-        <div className='flex flex-1 flex-col bg-[#f6f6f6] border-'>
+        <div className='flex flex-1 flex-col bg-[#f6f6f6] overflow-auto'>
             <DashboardNavBar />
             <div className='flex flex-col gap-6 mt-2 p-4'>
                 <StatCharts />
