@@ -17,7 +17,7 @@ const SideBar = () => {
                 {item.items.map(ele => {
                   const Icon = ele.icon
                   return (
-                    <div className='flex gap-2 items-center p-2 hover:bg-linear-to-r from-blue-100 to-blue-50 rounded-xl'>
+                    <div className='flex gap-2 items-center p-2 hover:bg-linear-to-r from-blue-100 to-gray-200 rounded-xl'>
                       <Icon size={16} className='text-gray-600' /><span className='text-gray-600 font-semibold text-[12px]'>{ele.name}</span>
                     </div>
                   )
